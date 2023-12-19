@@ -14,9 +14,6 @@ AUTHOR_EMAIL = "dev@radyalabs.com"
 
 URL = "https://orangedatamining.com/download"
 DESCRIPTION = "Orange3 add-on from Radya for displaying data from api"
-LONG_DESCRIPTION = open(
-    path.join(path.dirname(__file__), "README.pypi"), "r", encoding="utf-8"
-).read()
 
 LICENSE = "GPL3+"
 
@@ -82,7 +79,6 @@ if __name__ == "__main__":
         description=DESCRIPTION,
         entry_points=ENTRY_POINTS,
         install_requires=INSTALL_REQUIRES,
-        long_description=LONG_DESCRIPTION,
         long_description_content_type="text/markdown",
         license=LICENSE,
         name=NAME,

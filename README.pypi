@@ -1,0 +1,13 @@
+Orange3 Radya
+===============
+
+Orange3 Radya is an add-on for the [Orange3](http://orange.biolab.si)
+data mining suite. It provides extensions for displaying data from api.
+
+Features
+--------
+- Explains a classification or regression model. Explains which features
+  contribute the most and how they contribute toward the prediction for a
+  specific class.
+- Explains which features contribute the most to the prediction for a single
+  instance based on the model and how they contribute.
